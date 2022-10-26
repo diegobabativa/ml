@@ -1,0 +1,4 @@
+[core]
+    remote = gdrive_aws112017
+['remote "gdrive_aws112017"']
+    url = gdrive://1joSO68oTOfmEZWKZ4Fc3ag8aVZIzFcIC

@@ -1,0 +1,66 @@
+AWS Services:
+
+* SageMaker (Pre builded models)
+* Athena: Serverless service, only pay for the queries that you run.
+* EC2 for Virtual Machine Instances
+* AWS Lambdas: Serverless cloud computing service. It’s fault tolerant infrastructure where you run your code.
+     And also you don’t have to worry about OS updates or resizing your server
+    - Benefit with Lambda is that it provides security monitoring through CloudWatch, 
+      security patches, and code deployment, maintenance, 
+      and administration. This frees you to focus on the backend rather than infrastructure provisioning.
+    - Cons: No control environment and limited usable memory.
+
+
+Google Cloud Services
+* Google Cloud functions: Serverless Cloud functions
+* BigQuery
+* Virtual Machine instances on Google Compute Engine
+* Google Colab
+
+
+
+
+******************************************************************************
+Machine Learning Life Cycle technologies - MLOps :
+
+DVC:     
+MLFlow:  
+ArgoML:  
+KubeFlow: 
+Airflow: 
+
+
+******************************************************************************
+Model Deployment
+
+Docker
+Flask
+FastAPI
+AWS Lambda
+AWS Fargate
+
+
+
+
+Bigdata
+******************************************************************************
+Dask: Open source python library for paralel computing
+Apache Zeppelin: Big data visualization tool.
+
+Hadoop: Framework created at 2011 by Apache, distribuited systems. 
+  - Hadoop Distribuited File Systems
+  - Hadoop Map Reduce. This save intermedial results on Disk. Works on Java 
+
+
+Spark:  It is an upgrae from Hadoop Map Reduce. It has high level abstractions to SQL. 
+Is 100 faster than Hadoop Map Reduce, works over RAM. It works with Java, Scala, Python & R.
+Apache Spark not has his own distribuited files system.
+ 
+  - Spark Streaming
+  - Spark Structured Streaming.
+  - Spark MLLin (Distribuited Machine Learning)
+  - Spark GraohX
+
+As a conclusion, currently the best option is working with Hadoop muscle (Hadoop YARN, HFDS) + 
+  Apache Spark brain for working with Big Data.
+
